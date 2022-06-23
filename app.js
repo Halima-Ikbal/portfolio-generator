@@ -4,6 +4,8 @@ const profileDataArgs = process.argv.slice(2);
 console.log(profileDataArgs);
 
 const [name, github] = profileDataArgs;
+console.log(name, github);
+const pageHTML = generatePage(name, github);
 
 
 
